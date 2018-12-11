@@ -1,0 +1,5 @@
+export const REQUEST_FEEDS = 'REQUEST_FEEDS'
+export const RESPONSE_FEEDS = 'RESPONSE_FEEDS'
+export const FAILURE_FEEDS = 'FAILURE_FEEDS'
+
+export const TOGGLE_LIKE = 'TOGGLE_LIKE'

@@ -1,0 +1,1 @@
+export const GET_FEEDS_API_URL = 'https://pastebin.com/raw/d8n1jL6y' 

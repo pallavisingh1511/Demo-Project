@@ -1,0 +1,91 @@
+@white: #fff;
+@black: #000;
+@blue: #3eced3;
+@border: #d8d4d4;
+
+.feedContainer {
+    border: 1px solid @border;
+    border-radius: 4px;
+    margin-top: 16px;
+    .profileDetail {
+        margin: 12px 0;
+        padding: 0 12px;
+        .profile {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                .imageWrapper {
+                    background-color: @blue;
+                    border-radius: 50%;
+                    display: inline-block;
+                    padding: 2px;
+                    vertical-align: top;
+                    .profileImage {
+                        border: 2px solid @white;
+                        border-radius: 50%;
+                        height: 35px;
+                        width: 35px;
+                        position: relative;
+                    }
+                }
+                .profileDescription {
+                    display: inline-block;
+                    margin-left: 8px;
+                    .name {
+                        color: @black;
+                        font-size: 13px;
+                        font-weight: 500;
+                        line-height: 15px;
+                        margin: 0;
+                        display: inline-block;
+                    }
+                    .status {
+                        color: #9b9b9b;
+                        font-size: 12px;
+                        font-style: italic;
+                        line-height: 20px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .feedWrapper {
+        margin: 8px 0;
+        padding: 0 12px;
+        .feedType {
+            .typeQuestion {
+                color: #fc7585;
+                font-weight: 600;
+                margin: 0 4px 0 0;
+                font-size: 14px;
+            }
+        }
+        .detail {
+            display: inline-block;
+            width: 95%;
+            vertical-align: top;
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-weight: 600;
+                font-size: 14px;
+
+            }
+        }
+    }
+    .divider {
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+    .actionWrapper {
+        padding: 0 12px;
+        margin: 8px 0;
+        cursor: pointer;
+        .liked {
+            color: #4a4a4a;
+            color: @blue;
+        }
+
+    }
+}
